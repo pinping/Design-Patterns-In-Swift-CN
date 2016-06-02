@@ -7,11 +7,37 @@ A short cheat-sheet with Xcode 7beta Playground ([Design-Patterns.playground.zip
 
 ## Table of Contents
 
-* [Behavioral](#behavioral)
-* [Creational](#creational)
-* [Structural](#structural)
+* [Behavioral(行为型)](#Behavioral(行为型))
+	* [🐝 Chain Of Responsibility (责任链)](#🐝 Chain Of Responsibility)
+	* [👫 Command (命令)](#👫 Command (命令))
+	* [🎶 Interpreter (解释器)](#🎶 Interpreter (解释器))
+	* [🍫 Iterator (迭代器)](#🍫 Iterator (迭代器))
+	* [💐 Mediator (中介者)](#💐 Mediator (中介者))
+	* [💾 Memento (备忘录)](#💾 Memento (备忘录))
+	* [👓 Observer (观察者)](#👓 Observer (观察者))
+	* [🐉 State (状态)](#🐉 State (状态))
+	* [💡 Strategy (策略)](#💡 Strategy (策略))
+	* [🏃 Visitor (访问者)](#🏃 Visitor (访问者))
+* [Creational(创建型)](#Creational(创建型))
+	* 🌰 Abstract Factory (抽象工厂)
+	* 👷 Builder (建造者)
+	* 🏭 Factory Method (工厂方法)
+	* 🃏 Prototype (原型)
+	* 💍 Singleton (单例)
+* [Structural(结构型)](#Structural(结构型))
+	* 🔌 Adapter(适配器)
+	* 🌉 Bridge (桥接)
+	* 🌿 Composite(组合)
+	* 🍧 Decorator(装饰)
+	* 🎁 Façade(外观)
+	* ☔ Protection Proxy(保护代理)
+	* 🍬 Virtual Proxy(虚代理)
 
-Behavioral
+>
+> NO Flyweight（享元）
+> NO Template Method（模板方法）
+
+Behavioral(行为型)
 ==========
 
 >In software engineering, behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
@@ -691,7 +717,7 @@ names
  [Structural](Structural)
 ```
 
-Creational
+Creational(创建型)
 ==========
 
 > In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
@@ -981,7 +1007,7 @@ let laser = DeathStarSuperlaser.sharedInstance
  Structural
 ```
 
-Structural
+Structural(结构型)
 ==========
 
 >In software engineering, structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships between entities.
